@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Estilos para a seção de links */
+.menu {
+    background-color: #333;
+    /* Cor de fundo */
+    padding: 10px;
+    margin-bottom: 20px;
+    /* Espaçamento interno */
+}
+
+.menu a {
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    color: #fff;
+    /* Cor do texto */
+    margin-right: 20px;
+
+    /* Espaço entre os links */
+}
+
+.menu a:last-child {
+    margin-right: 0;
+
+    /* Remove a margem direita do último link */
+}
+
+
+/* Estilos para o logotipo */
+.logo {
+    background-color: black;
+}
+
+.logo img {
+    width: 100px;
+    /* Largura da imagem */
+    height: auto;
+    /* Altura automática para manter a proporção */
+    /* Espaço entre o logotipo e o conteúdo à direita */
+    margin-left: 1170px;
+    margin-bottom: 1px;
+    border-radius: 40px;
+
+}
+
+/* Estilos para o container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilos para cada imagem com descrição */
+.imagem-com-descricao {
+    text-align: center;
+    margin: 20px;
+}
+
+.imagem-com-descricao img {
+    max-width: 75%;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 80px;
+}
+
+.imagem-com-descricao p {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* Estilos para h2 frase simule emprestimos */
+
+.fraseSimuleEmprestimo h2 {
+    margin-left: 500px;
+    color: #fff;
+}

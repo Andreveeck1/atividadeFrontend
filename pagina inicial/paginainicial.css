@@ -1,0 +1,134 @@
+/* Reset de margens e preenchimento para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Estilos para a seção de links */
+.menu {
+    background-color: #333;
+    /* Cor de fundo */
+    padding: 10px;
+    margin-bottom: 20px;
+    /* Espaçamento interno */
+}
+
+.menu a {
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    color: #fff;
+    /* Cor do texto */
+    margin-right: 20px;
+
+    /* Espaço entre os links */
+}
+
+.menu a:last-child {
+    margin-right: 0;
+  
+    /* Remove a margem direita do último link */
+}
+
+
+/* Estilos para o logotipo */
+.logo {
+    background-color: black;
+}
+
+.logo img {
+    width: 100px;
+    /* Largura da imagem */
+    height: auto;
+    /* Altura automática para manter a proporção */
+    /* Espaço entre o logotipo e o conteúdo à direita */
+    margin-left: 1170px;
+    margin-bottom: 1px;
+    border-radius: 40px;
+
+}
+
+/* Estilos para o banner */
+.banner {
+    height: 200px;
+    /* Defina a altura desejada para o banner */
+    width: 600px;
+    margin-left: 350px;
+    overflow: hidden;
+    /* Oculta qualquer conteúdo que exceda a altura definida */
+    background-color: black;
+}
+
+
+.banner img {
+    width: 100%;
+    /* A imagem se ajustará automaticamente à largura do contêiner */
+    height: auto;
+    /* Altura automática para manter a proporção */
+    display: block;
+    /* Remove espaços extras abaixo da imagem */
+    border-radius: 20px;
+}
+
+/* Estilos para a galeria */
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para cada item */
+  .item {
+    text-align: center;
+  }
+  
+  /* Estilos para a imagem */
+  .item img {
+    max-width: 100%;
+    height: 100px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para a descrição */
+  .item p {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  /* Estilos para os links */
+  .item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+
+  /* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para as informações de contato */
+.contato {
+  margin-bottom: 20px;
+}
+
+.contato p {
+  margin: 5px 0;
+}
+
+/* Estilos para os ícones de redes sociais */
+.redes-sociais a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociais img {
+  width: 30px; /* Largura dos ícones */
+  height: 30px; /* Altura dos ícones */
+}
