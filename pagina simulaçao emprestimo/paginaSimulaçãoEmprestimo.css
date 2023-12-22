@@ -80,3 +80,141 @@ body {
     margin-left: 500px;
     color: #fff;
 }
+
+/* Estilos gerais para o formulário */
+#calculadora-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para os rótulos */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para os campos de entrada e seleção */
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para o botão de calcular */
+  #calcular {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Estilos para a saída do resultado */
+  #resultado {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3e0ee9;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #valor-parcela {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #seja-cliente {
+    margin-top: 50px;
+    margin-left: 110px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Transforma o cursor em uma mão ao passar o mouse */
+  }
+  
+  #seja-cliente:hover {
+    background-color: #0056b3; /* Cor de fundo quando o mouse passa por cima */
+  }
+
+  /* Estilos para a seção de perguntas frequentes */
+.faq {
+    border-radius: 100px;
+    margin-top: 25px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .faq h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faq ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq li {
+    margin-bottom: 20px;
+  }
+  
+  .faq h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .faq p {
+    font-size: 16px;
+    color: #333;
+  }
+
+   /* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para as informações de contato */
+  .contato {
+    margin-bottom: 20px;
+  }
+  
+  .contato p {
+    margin: 5px 0;
+  }
+  
+  /* Estilos para os ícones de redes sociais */
+  .redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .redes-sociais img {
+    width: 30px; /* Largura dos ícones */
+    height: 30px; /* Altura dos ícones */
+  }
+  
+  
+  
+  
