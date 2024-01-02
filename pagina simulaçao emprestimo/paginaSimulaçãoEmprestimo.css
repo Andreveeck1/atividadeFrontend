@@ -10,6 +10,7 @@ body {
     /* Cor de fundo */
     padding: 10px;
     margin-bottom: 20px;
+    margin-left: 20px;
     /* Espaçamento interno */
 }
 
@@ -77,8 +78,9 @@ body {
 /* Estilos para h2 frase simule emprestimos */
 
 .fraseSimuleEmprestimo h2 {
-    margin-left: 500px;
-    color: #fff;
+    margin-left: 350px;
+    color: #cdf102;
+    font-size: 50px;
 }
 
 /* Estilos gerais para o formulário */
@@ -157,6 +159,7 @@ body {
 .faq {
     border-radius: 100px;
     margin-top: 25px;
+    margin-left: 20px;
     background-color: #f5f5f5;
     padding: 20px;
     border: 1px solid #ddd;
@@ -192,6 +195,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    margin-left: 20px;
     text-align: center;
   }
   
