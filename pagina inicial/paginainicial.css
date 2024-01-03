@@ -3,17 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    width: 1200px; /* Largura igual à largura da janela de visualização */
 }
 
 /* Estilos para a seção de links */
 .menu {
-    background-color: #333;
-    /* Cor de fundo */
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    /* Espaçamento interno */
+  background-color: #333; /* Cor de fundo */
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 1270px; /* Largura igual à largura da janela de visualização */
 }
+
+
 
 .menu a {
     text-decoration: none;
@@ -112,7 +113,7 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
-  margin-left: 20px;
+  width: 1250px; /* Largura igual à largura da janela de visualização */
 }
 
 /* Estilos para as informações de contato */

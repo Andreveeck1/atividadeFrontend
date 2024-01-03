@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    width: 1250px; /* Largura igual à largura da janela de visualização */
 }
 
 /* Estilos para a seção de links */
@@ -10,7 +11,8 @@ body {
     /* Cor de fundo */
     padding: 10px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    width: 1270px; /* Largura igual à largura da janela de visualização */
+
     /* Espaçamento interno */
 }
 
@@ -105,7 +107,7 @@ body {
   /* Estilos para os campos de entrada e seleção */
   input[type="number"],
   select {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -127,6 +129,7 @@ body {
   #resultado {
     display: flex;
     margin-top: 20px;
+    margin-bottom: 25px;
     padding: 10px;
     background-color: #3e0ee9;
     color: #fff;
@@ -159,7 +162,7 @@ body {
 .faq {
     border-radius: 100px;
     margin-top: 25px;
-    margin-left: 20px;
+    width: 1250px; /* Largura igual à largura da janela de visualização */
     background-color: #f5f5f5;
     padding: 20px;
     border: 1px solid #ddd;
@@ -195,7 +198,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    margin-left: 20px;
+    width: 1250px; /* Largura igual à largura da janela de visualização */
     text-align: center;
   }
   
